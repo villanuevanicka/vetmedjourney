@@ -1,0 +1,193 @@
+body {
+	background-color: #FFCECE;
+	text-align: center;
+	font-family: Rockwell;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	margin-bottom: 30px
+}
+.button {
+	background: white;
+	color: #FF9CA7;
+	padding: 10px 25px;
+	font-size: 30px;
+}
+.button:hover {
+	background: pink;
+	color: white;
+}
+#nav-bar {
+	list-style: none;
+	padding: 0;
+	margin: 10px;
+	text-align: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(5,1fr);
+}
+/* SHOWCASE SECTION */
+.showcase{
+	margin-bottom: 20px;
+	padding: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/4.jpg);
+}
+.showcase:hover {
+	background-image: url(../images/dog1.jpg);
+}
+/* MAIN ARTICLE SECTION */
+.main-article { 
+	background: pink;
+	padding: 20px;
+	text-align: center;
+	color: black;
+	margin-bottom: 10px;
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 2fr 1fr;
+}
+/* MAIN ARTICLE LEFT */
+.main-article-left p {
+	margin: 20px 0 20px 0;
+}
+.main-article-left h3 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.main-article-left {
+	background: #f7d1c6;
+	padding: 50px;
+	display: grid;
+	grid-gap: 1px;
+	grid-template-columns: 5fr 4fr;
+}
+/* MAIN ARTICLE RIGHT */
+.main-article-right p {
+	padding: 10px;
+	display: grid;
+	grid-gap: 1px;
+}
+.main-article-right {
+	margin-bottom: 40px;
+}
+
+.second-article-left p {
+	margin: 20px 0 20px 0;
+}
+.second-article-left h3 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+/* SECOND ARTICLE */
+.second-article-left {
+	background: #f7d1c6;
+	padding: 50px;
+	display: grid;
+	grid-gap: 1px;
+	grid-template-columns: 5fr 4fr;
+}
+.second-article { 
+	background: pink;
+	padding: 20px;
+	text-align: center;
+	color: black;
+	margin-bottom: 10px;
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 10px;
+}
+/* FOOTER SECTION */
+.footer {
+	text-align: center;
+	padding: 2px;
+	background: white;
+	color: #FF9CA7;
+	margin-bottom: 0;
+	font-size: 30px;
+}
+#p1 {
+	font-size: 30px;
+}
+#h1 {
+	font-size: 60px;
+	font-family: Clarendon BT;
+}
+#h2 {
+	font-size: 50px;
+	font-family: Clarendon BT;
+}
+#intro {
+ color: Black;
+ font-size: 40;
+ font-family: Clarendon BT;
+}
+ .slider-holder
+        {
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .image-holder
+        {
+            width: 2400px;
+            background-color: red;
+            height: 400px;
+            clear: both;
+            position: relative;
+            
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+        
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+        
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+        
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+        
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+        
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+        
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: brown;
+        }
